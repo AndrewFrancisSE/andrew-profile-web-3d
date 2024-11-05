@@ -25,10 +25,13 @@ import {
   angular,
   lovad,
   premierducts,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  mysticsystem,
+  mysticmobile,
+  lparkingmobile,
+  billpos,
+  astool,
+  asadmin,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -201,13 +204,13 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: mysticsystem,
+    sourceCodeLink: "https://lovad.vn/solution/giai-phap-phan-mem-quan-ly-camera-tap-trung/",
   },
   {
     name: "Mystic Client Mobile",
     description:
-        "Centralized camera monitoring software on the phone.",
+        "Centralized camera monitoring software on mobile.",
     tags: [
       {
         name: "c#",
@@ -218,13 +221,13 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: mysticmobile,
+    sourceCodeLink: "https://play.google.com/store/apps/details?id=com.LOVAD.DVMS_Mobile",
   },
   {
     name: "LParking Mobile",
     description:
-        "Mobile Parking Management Software.",
+        "Mobile Parking Management Software on mobile.",
     tags: [
       {
         name: "c#",
@@ -239,8 +242,8 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: lparkingmobile,
+    sourceCodeLink: "https://play.google.com/store/apps/details?id=com.lovad.lparking_mobile",
   },
   {
     name: "BillPOS",
@@ -260,13 +263,13 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       }
     ],
-    image: tripguide,
+    image: billpos,
     sourceCodeLink: "https://github.com/",
   },
   {
     name: "AS Tool",
     description:
-        "Automated texting and calling software on the phone",
+        "Automated texting and calling software on mobile",
     tags: [
       {
         name: "c#",
@@ -285,8 +288,8 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: astool,
+    sourceCodeLink: "https://www.facebook.com/share/v/5a6YeosaX1G5HyVW/",
   },
   {
     name: "AS Admin",
@@ -310,8 +313,8 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: asadmin,
+    sourceCodeLink: "https://www.facebook.com/share/v/5a6YeosaX1G5HyVW/",
   },
 ];
 

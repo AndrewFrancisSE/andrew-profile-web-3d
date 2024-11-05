@@ -8,6 +8,7 @@ import githubs from "./github.svg";
 import linkedin from "./linkedin.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.png";
 
 import css from "./tech/css.png";
 import cshap from "./tech/cshap.png";
@@ -27,9 +28,14 @@ import xamarin from "./tech/xamarin.png";
 import lovad from "./company/lovad.png";
 import premierducts from "./company/premierducts.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import asadmin from "./projects/asadmin.png";
+import astool from "./projects/astool.png";
+import billpos from "./projects/billpos.png";
+import lparkingmobile from "./projects/lparkingmobile.png";
+import mysticmobile from "./projects/mysticmobile.png";
+import mysticsystem from "./projects/mysticsystem.png";
+
+
 
 export {
   backend,
@@ -57,8 +63,12 @@ export {
   threejs,
   premierducts,
   lovad,
-  carrent,
-  jobit,
-  tripguide,
-  avatar
+  avatar,
+  mysticsystem,
+  mysticmobile,
+  lparkingmobile,
+  billpos,
+  astool,
+  asadmin,
+  link,
 };

@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { github } from "../../assets";
+import { link } from "../../assets";
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
@@ -27,7 +27,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         glareColor="#aaa6c3"
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
@@ -40,7 +40,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
               >
                 <img
-                  src={github}
+                  src={link}
                   alt="github"
                   className="h-1/2 w-1/2 object-contain"
                 />

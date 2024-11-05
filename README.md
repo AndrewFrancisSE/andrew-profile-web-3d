@@ -31,7 +31,7 @@ React.js and Three.js. It is a fully responsive website that works well on all d
 <details><summary><b>Folder Structure</b></summary>
 
 ```bash
-reactjs18-3d-portfolio/
+andew-profile-web-3d/
 ├── src/
 ├   ├── App.tsx
 ├   ├── globals.css
@@ -53,7 +53,6 @@ reactjs18-3d-portfolio/
 ├   ├   ├   ├── About.tsx
 ├   ├   ├   ├── Contact.tsx
 ├   ├   ├   ├── Experience.tsx
-├   ├   ├   ├── Feedbacks.tsx
 ├   ├   ├   ├── Hero.tsx
 ├   ├   ├   ├── Tech.tsx
 ├   ├   ├   ├── Works.tsx
