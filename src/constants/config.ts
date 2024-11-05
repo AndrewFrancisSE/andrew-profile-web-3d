@@ -33,20 +33,19 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
-    feedbacks: TSection;
     works: Required<TSection>;
   };
 };
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Andrew SE",
+    fullName: "Phan Huu Quy",
+    email: "huuquyse@mail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Andrew",
+    p: ["I love to explore and experiment", "with new technologies"],
   },
   contact: {
     p: "Get in touch",
@@ -67,19 +66,11 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I am a skilled software developer with experience in mobile, desktop, and web applications. I specialize in frameworks such as MAUI, WPF, ReactJS, and Web API. I am a quick learner who collaborates closely with clients to deliver efficient, scalable, and user-friendly solutions to solve real-world problems. Let’s work together to turn your ideas into reality!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
-    },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
     },
     works: {
       p: "My work",

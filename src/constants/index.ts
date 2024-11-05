@@ -14,20 +14,17 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
+  cshap,
   tailwind,
-  nodejs,
-  mongodb,
+  maui,
+  xamarin,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  kotlin,
+  angular,
+  lovad,
+  premierducts,
   carrent,
   jobit,
   tripguide,
@@ -51,31 +48,48 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Mobile Developer",
+    icon: mobile,
+  },
+
+  {
+    title: "Desktop Developer",
+    icon: creator,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Web Developer",
+    icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C#",
+    icon: cshap,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Maui",
+    icon: maui,
+  },
+  {
+    name: "Xamarin",
+    icon: xamarin,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
   },
   {
     name: "JavaScript",
@@ -86,25 +100,10 @@ const technologies: TTechnology[] = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -117,63 +116,37 @@ const technologies: TTechnology[] = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    companyName: "Premier Ducts Pty Ltd",
+    icon: premierducts,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2022 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mobile application development with Xamarin (Android/iOS).",
+      "Web development using Reactjs, Angular2+, Javascript, Typescript, HTML, CSS.",
+      "API Web Service development using REST API.",
+      "Database management with MySQL.",
+      "UI/UX design with Figma."
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    companyName: "LOVAD Co., Ltd.",
+    icon: lovad,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mobile application development using Xamarin/Maui/Kotlin (Android/iOS).",
+      "Desktop application development using WPF.",
+      "Web development using Reactjs, Angular2+, Javascript, Typescript, HTML, CSS.",
+      "API Web Service development using REST API.",
+      "Database management including SQL Server and PosgreSQL (designing and implementing database tables, optimizing queries).",
+      "UI/UX design with Figma.",
+      "Technical Leader.",
     ],
   },
 ];
@@ -207,66 +180,137 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Mystic System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Centralized camera management software.",
     tags: [
       {
-        name: "react",
+        name: "c#",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "wpf",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "webAPI",
         color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Mystic Client Mobile",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Centralized camera monitoring software on the phone.",
     tags: [
       {
-        name: "react",
+        name: "c#",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "maui",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "LParking Mobile",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Mobile Parking Management Software.",
     tags: [
       {
-        name: "nextjs",
+        name: "c#",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "maui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "xamarin",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "BillPOS",
+    description:
+        "Software to manage goods using QR Code and issue e-invoices.",
+    tags: [
+      {
+        name: "c#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webAPI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "maui",
+        color: "green-text-gradient",
+      }
+    ],
+    image: tripguide,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "AS Tool",
+    description:
+        "Automated texting and calling software on the phone",
+    tags: [
+      {
+        name: "c#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "maui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "kotlin",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "AS Admin",
+    description:
+        "Website to manage accounts, logs, and revenue of AS Tool software",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webAPI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "c#",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
     sourceCodeLink: "https://github.com/",
   },
 ];

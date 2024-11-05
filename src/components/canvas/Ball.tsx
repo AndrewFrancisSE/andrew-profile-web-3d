@@ -41,7 +41,7 @@ const Ball = (props: any) => {
 const BallCanvas: React.FC<{ icon: string }> = ({ icon }) => {
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >

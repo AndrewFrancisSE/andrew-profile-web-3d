@@ -16,7 +16,7 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
+        background: "#132639",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}

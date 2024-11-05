@@ -25,15 +25,16 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleX={30}
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
               alt={name}
-              className="h-full w-full rounded-2xl object-cover"
+              className="w-full h-full object-fit rounded-2xl"
             />
-            <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(sourceCodeLink, "_blank")}
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
@@ -64,25 +65,37 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
 };
 
 const Works = () => {
+  // @ts-ignore
   return (
-    <>
-      <Header useMotion={true} {...config.sections.works} />
+      <>
+        <Header useMotion={true} {...config.sections.works} />
 
-      <div className="flex w-full">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
-        >
-          {config.sections.works.content}
-        </motion.p>
-      </div>
+        <div className="flex w-full">
+          <motion.p
+              variants={fadeIn("", "", 0.1, 1)}
+              className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
+          >
+            {config.sections.works.content}
+          </motion.p>
+        </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-    </>
+        <div className="mt-20 flex flex-wrap gap-7">
+          {projects.map((project, index) => (
+              <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
+        <motion.div className=' flex justify-center w-full mt-20 cursor-pointer' variants={fadeIn("", "", 0.1, 1.5)}>
+          <a href="https://github.com/AndrewFrancisSE?tab=repositories" target='blank'
+             className='hover:scale-110 duration-500'>
+            <div className='green-pink-gradient p-[1px] rounded-xl'>
+              <div
+                  className="bg-tertiary px-8 py-4 rounded-xl text-[22px] tracking-wider uppercase hover:bg-white hover:text-tertiary">
+                More Projects ...
+              </div>
+            </div>
+          </a>
+        </motion.div>
+      </>
   );
 };
 
