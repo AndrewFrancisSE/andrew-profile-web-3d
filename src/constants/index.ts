@@ -185,7 +185,7 @@ const projects: TProject[] = [
   {
     name: "Mystic System",
     description:
-        "Centralized camera management software.",
+        "Centralized camera management software on desktop.",
     tags: [
       {
         name: "c#",
