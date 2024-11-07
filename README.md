@@ -1,4 +1,4 @@
-# 3D Portfolio
+# Andrew Profile
 
 <!-- GitHub badges -->
 
