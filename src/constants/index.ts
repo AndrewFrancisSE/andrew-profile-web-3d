@@ -198,11 +198,7 @@ const projects: TProject[] = [
       {
         name: "webAPI",
         color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
+      }
     ],
     image: mysticsystem,
     sourceCodeLink: "https://lovad.vn/solution/giai-phap-phan-mem-quan-ly-camera-tap-trung/",
@@ -213,7 +209,7 @@ const projects: TProject[] = [
         "Centralized camera monitoring software on mobile.",
     tags: [
       {
-        name: "c#",
+        name: "xamarin",
         color: "blue-text-gradient",
       },
       {
@@ -229,10 +225,6 @@ const projects: TProject[] = [
     description:
         "Mobile Parking Management Software on mobile.",
     tags: [
-      {
-        name: "c#",
-        color: "blue-text-gradient",
-      },
       {
         name: "maui",
         color: "green-text-gradient",
@@ -251,11 +243,7 @@ const projects: TProject[] = [
         "Software to manage goods using QR Code and issue e-invoices.",
     tags: [
       {
-        name: "c#",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "webAPI",
+        name: "xamarin",
         color: "pink-text-gradient",
       },
       {
@@ -271,14 +259,6 @@ const projects: TProject[] = [
     description:
         "Automated texting and calling software on mobile",
     tags: [
-      {
-        name: "c#",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "webAPI",
-        color: "green-text-gradient",
-      },
       {
         name: "maui",
         color: "pink-text-gradient",
@@ -303,14 +283,6 @@ const projects: TProject[] = [
       {
         name: "tailwind",
         color: "green-text-gradient",
-      },
-      {
-        name: "webAPI",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "c#",
-        color: "blue-text-gradient",
       },
     ],
     image: asadmin,
